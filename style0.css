@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+body{
+  font-family:sans-serif;
+  font-size: 25px;
+  background: radial-gradient(#c4ae29cc, transparent);
+}
+.navbar{
+  margin: 25px 15px;
+  padding: 0;
+  color: white;
+}
+.header ul{
+  display: flex;
+  list-style-type: circle;
+  margin-left: 700px;
+  justify-content: space-between;
+}
+.middle{
+  background-image: url(iai.jpg);
+  height: 62vh;
+  width: 100vw;
+  background-size: cover;
+  position: relative;
+}
+.body{
+  margin: 41px;
+      padding-inline: 90px;
+      padding-left: 40px;
+      padding-top: 277px;
+      padding-top: 248px;
+      adding-top: 226px;
+      display: -webkit-box;
+      display: flex;
+      justify-content: space-between;
+}
+.middle .foot{
+  padding-left: 1200px;
+  padding-top: 200px;
+}
